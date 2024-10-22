@@ -47,6 +47,7 @@
     padding: 0.5rem;
     border: 1px solid #ccc;
     z-index: 1;
+    margin-left: 50px;
 }
 
 .dropdown1 li {

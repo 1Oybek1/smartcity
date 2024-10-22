@@ -17,18 +17,6 @@ const Navbar = () => {
             <ul className={styles.navbarlist}>
                 <li><Link href="/">Bosh sahifa</Link></li>
                 <li>
-                    <Link href="#" onClick={toggleDropdown}>Transport</Link>
-                    {dropdown && (
-                        <ul className={styles.dropdown}>
-                            <li><Link href="/transport/public">Jamoaviy transport</Link></li>
-                            <li><Link href="/transport/bikes">Velosiped yo'llari</Link></li>
-                            <li><Link href="/transport/pedestrian">Piyoda xavfsizligi</Link></li>
-                            <li><Link href="/transport/status">Transport holati</Link></li>
-                        </ul>
-                    )}
-                </li>
-
-                <li>
                     <Link href="#" onClick={toggleDropdown}>Sahifalar</Link>
                     {dropdown && (
                         <ul className={styles.dropdown1}>

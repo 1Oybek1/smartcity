@@ -2,9 +2,15 @@
 
 
 
-const Section =()=>{
+
+
+const Section =()=>{  
     return(
-        <div className="">
+
+
+
+
+        <div className="mt-20">
         <div className="flex items-center " >
             <div className="left">
             <img src="img.jpg" className="w-[750px] ml-10" style={{borderRadius:"40px 0px 0px 40px"}} alt="" />
@@ -29,16 +35,21 @@ const Section =()=>{
             </div>
             </div>
             <div className="flex items-center mt-10" >
-            <div className="left">
+            <div className="left bg-blue-600 h-[437px] ml-20 items-center pt-9 text-center justify-around" style={{borderRadius:"40px 0px 0px 40px"}} >
            <p>Eko -shahar yoki ekotizim - bu Ecocity Builders (Richard Register tomonidan asos <br /> solingan notijorat tashkilot, bu atamani birinchi bo'lib ishlab chiqqan) tomonidan <br /> ta'riflanganidek, " tabiiy ekotizimlarning o'zini-o'zi barqaror tuzilmasi va funktsiyasi <br /> asosida modellashtirilgan odamlar turar joyi ". Oddiy qilib aytganda, ekoshahar ekologik <br /> sog'lom shahardir. Jahon banki ekoshaharlarni “ shaharsozlikni kompleks rejalashtirish va boshqarish <br /> orqali fuqarolar va jamiyat farovonligini oshiradigan, ekologik tizimlar afzalliklaridan foydalanadigan <br /> hamda bu boyliklarni kelajak avlodlar uchun himoya qiladigan va asrab-avaylaydigan shaharlar ” <br /> deb ta’riflaydi.“Eko-shahar”ning umumeʼtirof etilgan taʼrifi mavjud boʻlmasa-da, mavjud taʼriflar orasida <br /> ekoshaharning asosiy xususiyatlari boʻyicha bir qancha konsensus mavjud. Dunyo aholisi doimiy ravishda  <br />  o'sib bormoqda, bu esa yangi shaharlarni rivojlantirishzarurati tufayli shaharlarga katta bosim o'tkazmoqda.  <br /> Dunyo bo'ylab shaharlar barqarorlikka erishish uchun ekologik jihatdan asoslangan shahar  rivojlanishini <br />  moslashtirishga shoshilinch ehtiyoj bor. Ekologik shaharning o'lchamlari bizning <br />  hozirgi barqaror bo'lmagan amaliyotlarimizni hal qilish orqali shaharlardagi yashash sharoitlarini <br /> yaxshilash uchun echimlarni taqdim etadi. </p>
             </div>
-            <div className="right bg-blue-600 h-[437px] items-center pt-9 text-center" style={{borderRadius:"0px 40px 40px 0px"}} >
-            <img src="eco2.png" className="w-[750px] ml-10 h-[437px]" style={{borderRadius:"40px 0px 0px 40px"}} alt="" />
+            <div className="right">
+            <img src="eco3.png" className="w-[650px]  h-[437px]" style={{borderRadius:"0px 40px 40px 0px"}} alt="" />
             </div>
             </div>
+
+
         </div>
     )
 }
 
-
 export default Section;
+
+
+
+        
