@@ -27,24 +27,27 @@ const Navbar = () => {
                         </ul>
                     )}
                 </li>
-                <li><Link href="/energy">Energiya va resurslar</Link></li>
+
+                <li>
+                    <Link href="#" onClick={toggleDropdown}>Sahifalar</Link>
+                    {dropdown && (
+                        <ul className={styles.dropdown1}>
+                        <li><Link href="/energy">Energiya va resurslar</Link></li>
                 <li><Link href="/ecology">Ekologiya</Link></li>
                 <li><Link href="/community">Ijtimoiy aloqalar</Link></li>
                 <li><Link href="/issues">O'zgaruvchan ma'lumotlar</Link></li>
                 <li><Link href="/contact">Aloqa</Link></li>
                 <li><Link href="/profile">Profil</Link></li>
+                        </ul>
+                    )}
+                </li>
+                
+            
             </ul>
             <div className={styles.search}>
                 <input type="text" placeholder="Qidirish..." />
             </div>
-            <div className={styles.languageselector}>
-                
-                <select>
-                    <option className='text-black' value="uz">O'zbek</option>
-                    <option className='text-black' value="ru">Русский</option>
-                    <option className='text-black' value="en">English</option>
-                </select>
-            </div>
+
         </nav>
     );
 };
