@@ -1,5 +1,7 @@
 .main{
     background-image: url(https://emudhra.com/hubfs/Imported_Blog_Media/kBxROhHT4yVGkvq4MjZa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .image{
     width: 100%;

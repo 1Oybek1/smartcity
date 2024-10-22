@@ -9,11 +9,7 @@ const Sectiondddd = () => {
  
 <div className={styles1.main}> 
 <img className={styles1.image} src="" alt="" /> 
-<h1 className={styles1.text}> 
-Aqlli shaharlar qayta tiklanadigan energiya manbalaridan <br /> foydalanadi va energiya sarfini kamaytiradi. 
-Real vaqt <br /> transport monitoringi va aqlli yo'l tizimlari orqali jamoaviy transportni <br /> optimallashtiradi va trafikni boshqaradi. 
- 
-</h1> 
+
 </div> 
  
  
