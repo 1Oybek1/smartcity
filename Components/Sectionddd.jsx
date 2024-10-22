@@ -3,7 +3,7 @@ import styles from "../styles/Section.module.css"
 import Link from 'next/link'
 import styles1 from "../styles/Section.module.css"
 
-const Section = () => {
+const Sectiondddd = () => {
   return (
     <div>
 
@@ -247,4 +247,4 @@ Fikr-mulohazalar: Foydalanuvchilar tizimga takliflar va fikr-mulohazalar yuboris
   )
 }
 
-export default Section
+export default Sectiondddd

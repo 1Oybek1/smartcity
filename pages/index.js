@@ -1,5 +1,5 @@
 import Navbar from "@/Components/Navbar"
-import Section from "@/Components/Section"
+import Section from "@/Components/Sectionddd"
 
 const Home = () => {
   return (
