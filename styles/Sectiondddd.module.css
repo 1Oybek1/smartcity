@@ -1,6 +1,7 @@
 .main{
     background-image: url();
 }
-.img{
-    background-size: cover;
+.image{
+    width: 100%;
+    height: 610px;
 }

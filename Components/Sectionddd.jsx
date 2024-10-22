@@ -1,7 +1,6 @@
 import React from 'react'
-import styles from "../styles/Section.module.css"
-import Link from 'next/link'
-import styles1 from "../styles/Section.module.css"
+import styles1 from "../styles/Sectiondddd.module.css"
+
 
 const Sectiondddd = () => {
   return (
@@ -9,9 +8,12 @@ const Sectiondddd = () => {
 
 
 <div className={styles1.main}>
-    <img className={styles.img} src="https://media.istockphoto.com/id/1406960186/photo/the-skyline-of-new-york-city-united-states.jpg?s=612x612&w=0&k=20&c=yZJXNdzq3d5bKgvVzPBahBujpbVUXFyjyl9FN9L7esM=" alt="" />
+<img className={styles1.image} src="" alt="" />
+<h1 className={styles1.text}>
+Aqlli shaharlar qayta tiklanadigan energiya manbalaridan <br /> foydalanadi va energiya sarfini kamaytiradi.
+Real vaqt <br /> transport monitoringi va aqlli yo'l tizimlari orqali jamoaviy transportni <br /> optimallashtiradi va trafikni boshqaradi.
 
-
+</h1>
 </div>
 
 
